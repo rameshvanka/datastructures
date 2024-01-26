@@ -41,10 +41,10 @@ public class DFSInMatrix {
 			System.out.println("i " + i + " j " + j + "  value " +adj[i][j]);
 			
 			
-			dfs(adj, i-1, j, visited); // Move left
-			dfs(adj, i+1, j, visited); // Move Right
-			dfs(adj, i, j-1, visited); //Move top
-			dfs(adj, i, j+1, visited); //Move bottom		
+			dfs(adj, i-1, j, visited); // Move top
+			dfs(adj, i+1, j, visited); // Move bottom
+			dfs(adj, i, j-1, visited); //Move left
+			dfs(adj, i, j+1, visited); //Move right		
 		}
 			
 	
